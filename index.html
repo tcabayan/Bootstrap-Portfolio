@@ -2,7 +2,7 @@
  <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Portfolio</title>
 
     <!-- Bootstrap CDN -->
@@ -12,74 +12,70 @@
     <link rel="stylesheet" type = "text/css" href="style.css ">
     
   </head>
+
   <body>
   <!-- Start Nav -->
+
+  <nav class="navbar fixed-top navbar-expand-md">
     <div class="container-fluid">
-      <header>
-        <nav class="fixed-top">
-            <div class="row">
-                <div class="col-md-8">
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="#">Tamar Cabayan</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </nav>
-                </div>
-                <div class="col-md-4">
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                                <div class="navbar-nav mr-auto">
-                                    <a class="nav-item nav-link active" href="index.html">About Me</a>
-                                    <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
-                                    <a class="nav-item nav-link active" href="contact.html">Contact Me</a> 
-                                </div>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </nav>
-      </header>
+      <div class="row header">
+         <div class="col-md-1"></div>
+         <div class="col-md-7">
+         <a class="navbar-brand" href="#">Tamar Cabayan</a>   
+        </div>
+        <div class="col-md-3">
+         <ul class="navbar-nav ml-auto">
+             <li class="nav-item">
+               <a class="nav-link" href="index.html">About Me</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Me</a>
+              </li>
+         </ul>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+  </nav>
+  
   <!-- End Nav -->
-      <div class="container">
-        <div class="wrap">
-          <div class="col-md-12" id="about">
-            <div class="page-header">
-              <h2>About Me</h2>
-              <hr>
-            </div>
-            <div class="row">
-              <div class="col-md-3">
-                <img src="/Users/tcabayan/Desktop/UCLA-Coding-Bootcamp/Basic-Portfolio/Images/Profile_Picture.jpg" class="profile-img align-self-center mr-3" alt="My Picture">
-              </div>
-              <div class="col-md-9">
-                <p class="mb-0">Hi Everyone!</p>
-                <p class="mb-0">So my website is finally here, or at least in part! This site is a work in progress, but in the meantime I wanted to tell you a bit about myself as well as about my work!</p>
-                <p class="mb-0">I am an attorney licensed to practice law in the state of California since 2013. My focus has generally been in the information technology sector with key expertise in both domestic and global law, corporate and commercial law, intellectual property law, technology, and privacy and data security law</p>
-                <p class="mb-0">The more experience I gained as an attorney in the information technology sector, the more important I realized it was to develop more than just a basic understanding of software engineering. So, I decided to take the first uncomfortable steps towards my road less traveled and take an intensive coding course.</p>
-                <p class="mb-0">This website and my portfolio are a testament to all that I learned in my journey to learn basic computer coding as well as my blood, sweat, and tears (but I didn't create a separate portfolio for that!).</p>
-                <p class="mb-0">xx Tamar Cabayan</p>
-              </div>
-            </div>
+
+  <div class="container">
+    <div class="wrap">
+      <div class="col-sm-12" id="about">
+        <div class="page-header">
+          <h2>About Me</h2>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-sm-3">
+            <img src="/Users/tcabayan/Desktop/UCLA-Coding-Bootcamp/Basic-Portfolio/Images/Profile_Picture.jpg" class="profile-img align-self-center mr-3" alt="My Picture">
+          </div>
+          <div class="col-sm-9">
+            <p class="mb-0">Hi Everyone!</p>
+            <p class="mb-0">So my website is finally here, or at least in part! This site is a work in progress, but in the meantime I wanted to tell you a bit about myself as well as about my work!</p>
+            <p class="mb-0">I am an attorney licensed to practice law in the state of California since 2013. My focus has generally been in the information technology sector.The more experience I gained as an attorney in the information technology sector, the more important I realized it was to develop more than just a basic understanding of software engineering. So, I decided to take the first uncomfortable steps towards my road less traveled and take an intensive coding course.</p>
+            <p class="mb-0">This website and my portfolio are a testament to all that I learned in my journey to learn basic computer coding as well as my blood, sweat, and tears (but I didn't create a separate portfolio for that!).</p>
+            <p class="mb-0">xx Tamar Cabayan</p>
           </div>
         </div>
       </div>
-    
-      <div class="container-fluid">
-        <footer>
-            <nav class="fixed-bottom">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="footer-copyright text-center py-3" id="footer">© Copyright 2020</div>                       
-                    </div>
-                </div>
-            </nav>
-        </footer>
-      </div>
-    </div> 
+    </div>
+  </div>
 
+  <footer>
+    <nav class="fixed-bottom">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="footer-copyright text-center py-3" id="footer">© Copyright 2020</div>                       
+          </div>
+      </div>
+    </nav>
+  </footer>
+  
   <!-- jQuery CDN -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 
