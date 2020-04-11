@@ -28,7 +28,7 @@ body {
 
 .form {
     background-color: pink;
-    padding: 25px;
+    padding: 50px 25px;
     box-sizing: border-box;
     border-style: none;
     border-width: 3px;
