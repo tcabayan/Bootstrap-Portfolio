@@ -1,88 +1,95 @@
 <!DOCTYPE html>
  <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
-    <!-- CSS File -->
-    <link rel="stylesheet" type = "text/css" href="style.css ">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--CSS file Link-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome CSS Icons (For cool glyphicons) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+    <title>My Portfolio</title>
     
   </head>
 
   <body>
   <!-- Start Nav -->
-
-  <nav class="navbar fixed-top navbar-expand-md">
-    <div class="container-fluid">
-      <div class="row header">
-         <div class="col-md-1"></div>
-         <div class="col-md-7">
-         <a class="navbar-brand" href="#">Tamar Cabayan</a>   
-        </div>
-        <div class="col-md-3">
-         <ul class="navbar-nav ml-auto">
-             <li class="nav-item">
-               <a class="nav-link" href="index.html">About Me</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="portfolio.html">Portfolio</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
+      <a class="navbar-brand" href="index.html"><h1>Tamar Cabayan</h1></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="index.html"><h5>About Me</h5><span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Me</a>
+                  <a class="nav-link" href="portfolio.html"><h5>Portfolio</h5></a><span class="sr-only">(current)</span></a>
               </li>
-         </ul>
-        </div>
-        <div class="col-md-1"></div>
-      </div>
-    </div>
-  </nav>
-  
-  <!-- End Nav -->
-
-  <div class="container">
-    <div class="wrap">
-      <div class="col-sm-12" id="about">
-        <div class="page-header">
-          <h2>About Me</h2>
-          <hr>
-        </div>
-        <div class="row">
-          <div class="col-sm-3">
-            <img src="Images/Profile_Picture.jpg" class="profile-img align-self-center mr-3" alt="My Picture">
-          </div>
-          <div class="col-sm-9">
-            <p class="mb-0">Hi Everyone!</p>
-            <p class="mb-0">So my website is finally here, or at least in part! This site is a work in progress, but in the meantime I wanted to tell you a bit about myself as well as about my work!</p>
-            <p class="mb-0">I am an attorney licensed to practice law in the state of California since 2013. My focus has generally been in the information technology sector.The more experience I gained as an attorney in the information technology sector, the more important I realized it was to develop more than just a basic understanding of software engineering. So, I decided to take the first uncomfortable steps towards my road less traveled and take an intensive coding course.</p>
-            <p class="mb-0">This website and my portfolio are a testament to all that I learned in my journey to learn basic computer coding as well as my blood, sweat, and tears (but I didn't create a separate portfolio for that!).</p>
-            <p class="mb-0">xx Tamar Cabayan</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <nav class="fixed-bottom">
-      <div class="row">
-          <div class="col-md-12">
-              <div class="footer-copyright text-center py-3" id="footer">© Copyright 2020</div>                       
-          </div>
+              <li class="nav-item">
+                  <a class="nav-link" href="contact.html"><h5>Contact Me</h5></a><span class="sr-only">(current)</span></a>
+              </li>
+          </ul>
       </div>
     </nav>
-  </footer>
-  
-  <!-- jQuery CDN -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <!--End of NavBar-->
 
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <div class="container">
+      <div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="Images/Profile_Picture.jpg" class="card-img profileimg" alt="My Picture">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h2 class="card-title">About Me</h2>
+              <hr>
+              <p class="card-text">Hi Everyone!</p>
+              <p class="card-text">So my website is finally here, or at least in part! This site is a work in progress, but in the meantime I wanted to tell you a bit about myself as well as about my work!</p>
+              <p class="card-text">I am an attorney licensed to practice law in the state of California since 2013. My focus has generally been in the information technology sector.The more experience I gained as an attorney in the information technology sector, the more important I realized it was to develop more than just a basic understanding of software engineering. So, I decided to take the first uncomfortable steps towards my road less traveled and take an intensive coding course.</p>
+              <p class="card-text">This website and my portfolio are a testament to all that I learned in my journey to learn basic computer coding as well as my blood, sweat, and tears (but I didn't create a separate portfolio for that!).</p>
+              <p class="card-text">xx Tamar Cabayan</p> 
+              <br>
+              <p> Want to Learn More About Me?</p>
+                <div class="row">
+                  <div class="col-md-4">
+                    <a href="https://github.com/tcabayan"><h6><span>My GitHub Profile</span></h6></a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="https://www.linkedin.com/in/tamar-cabayan-524aa73a/"><h6><span>My Linkedin</span></h6></a> 
+                  </div>
+                  <div class="col-md-4">
+                    <a href="https://github.com/tcabayan/resume/raw/master/Tamar%20Cabayan.pdf"><h6><span>My Resume</span></h6></a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
 
-  <!-- Bootstrap JavaScript CDN -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Footer -->
+    <footer class= "page-footer font-small">
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2020 Copyright</div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   </body>
+
 </html>
